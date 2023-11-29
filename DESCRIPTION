@@ -1,0 +1,17 @@
+Package: curvir
+Type: Package
+Title: Specify Reserve Demand Curves
+Version: 0.1.2
+Authors@R: c(person("Nikolaos", "Kourentzes", email = "nikolaos@kourentzes.com",
+                    role = c("aut", "cre")),
+             person("Zhuohui", "Chen", email = "zchen4@imf.org",
+                    role = c("aut")),
+             person("Romain", "Veyrune", role = c("aut")))     
+Maintainer: Nikolaos Kourentzes <nikolaos@kourentzes.com>
+Description: Automatic specification and estimation of reserve demand curves for central bank operations. The package can help to choose the best demand curve and identify additional explanatory variables. Various plot and predict options are included. For more details, see Chen et al. (2023) <https://www.imf.org/en/Publications/WP/Issues/2023/09/01/Modeling-the-Reserve-Demand-to-Facilitate-Central-Bank-Operations-538754>. 
+Imports: RColorBrewer, abind, cvTools, pbapply, pso, mgcv, qgam, quantregForest, randomForest
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
